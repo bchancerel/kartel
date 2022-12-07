@@ -39,4 +39,15 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.btn-outline-primary {
+  --bs-btn-color: #212ea5 !important;
+  --bs-btn-border-color: #212ea5 !important;
+  --bs-btn-hover-bg: #212ea5 !important;
+  --bs-btn-hover-border-color: #212ea5 !important;
+  --bs-btn-active-bg: #212ea5 !important;
+  --bs-btn-active-border-color: #212ea5 !important;
+  --bs-btn-disabled-color: #212ea5 !important;
+  --bs-btn-disabled-border-color: #212ea5 !important;
+}
 </style>

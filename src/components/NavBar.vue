@@ -1,27 +1,30 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center my-4" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item mx-4">
+          <ul class="navbar-nav row">
+            <li class="nav-item my-auto col">
               <a class="nav-link m-2" aria-current="page" href="/agence">L'agence</a>
             </li>
-            <li class="nav-item mx-4">
+            <li class="nav-item my-auto col">
               <a class="nav-link m-2" href="/artistes">Les artistes</a>
             </li>
-            <li class="nav-item mx-4">
-              <div class="nav-link">
-                <img src="" alt="">
-              </div>
+            <li class="col d-lg-flex d-none">
+              <a href="/">
+                <img class="w-100" src="../assets/logo.svg" alt="logo">
+              </a>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link m-2" href="/evenements">Les événements</a>
+            <li class="col d-lg-none d-block nav-item my-auto">
+              <a class="nav-link m-2" href="/">Home</a>
             </li>
-            <li class="nav-item mx-4">
+            <li class="nav-item my-auto col">
+              <a class="nav-link m-2" href="/evenements">Événements</a>
+            </li>
+            <li class="nav-item my-auto col">
               <a class="nav-link m-2" href="/services">Nos services</a>
             </li>
           </ul>
@@ -50,7 +53,7 @@ export default {
 .nav-item:hover{
   box-shadow: 0 1px 5px 0;
   animation: active-style 0.5s 1;
-  background-color: #254196;
+  background-color: #212ea5;
   border-radius: 50px;
 }
 
@@ -61,7 +64,7 @@ export default {
   }
   to{
       border-radius: 50px;
-      background-color: #254196;
+      background-color: #212ea5;
   }
 }
 
