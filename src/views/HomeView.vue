@@ -64,21 +64,15 @@
           <button class="btn btn-outline-primary">Voir nos projets</button>
         </div>
       </div>
-
     </div>
-    <FooterBar/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import FooterBar from '@/components/FooterBar.vue'
 
 export default {
-  name: 'HomeView',
-  components: {
-    FooterBar
-  }
+  name: 'HomeView'
 }
 </script>
 
