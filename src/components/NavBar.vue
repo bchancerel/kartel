@@ -11,7 +11,7 @@
               <a class="nav-link m-2" aria-current="page" href="/kartel/agence">L'agence</a>
             </li>
             <li class="col d-lg-flex d-none">
-              <a href="/">
+              <a href="/kartel">
                 <img class="w-100" src="../assets/logo.svg" alt="logo">
               </a>
             </li>

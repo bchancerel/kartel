@@ -6,28 +6,26 @@ import PodcastView from '../views/PodcastView.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
-    path: '/kartel',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/kartel/agence',
-    name: 'agence',
-    component: AgenceView
-  },
-  {
-    path: '/kartel/podcast',
-    name: 'podcast',
-    component: PodcastView
-  }
-]
-
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+  base: '/kartel',
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: HomeView
+    },
+    {
+      path: '/agence',
+      name: 'agence',
+      component: AgenceView
+    },
+    {
+      path: '/podcast',
+      name: 'podcast',
+      component: PodcastView
+    }
+  ]
 })
 
 export default router
