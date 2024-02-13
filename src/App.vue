@@ -33,6 +33,27 @@ export default {
   grid-template-rows: 1fr auto;
 }
 
+/* Largeur */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Couleur de fond */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Couleur de la poignée */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Effet de survol */
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2a2a;
+}
+
 nav {
   padding: 30px;
 }

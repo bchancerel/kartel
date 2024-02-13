@@ -2,9 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AgenceView from '../views/AgenceView.vue'
-import EvenementsView from '../views/EvenementsView.vue'
-import ArtistesView from '../views/ArtistesView.vue'
-import ServiceView from '../views/ServiceView.vue'
+import PodcastView from '../views/PodcastView.vue'
 
 Vue.use(VueRouter)
 
@@ -20,19 +18,9 @@ const routes = [
     component: AgenceView
   },
   {
-    path: '/evenements',
-    name: 'evenements',
-    component: EvenementsView
-  },
-  {
-    path: '/artistes',
-    name: 'artistes',
-    component: ArtistesView
-  },
-  {
-    path: '/services',
-    name: 'services',
-    component: ServiceView
+    path: '/podcast',
+    name: 'podcast',
+    component: PodcastView
   }
 ]
 

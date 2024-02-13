@@ -2,9 +2,9 @@
     <div class="container mb-5">
       <h1 class="police my-3">L'Agence</h1>
 
-      <div class="mx-2 d-flex justify-content-center mt-3">
+      <div class=" mx-2 d-flex justify-content-center mt-3">
         <div class="row my-auto">
-          <div class="col-4 mt-4">
+          <div class="col-4 d-none d-md-block mt-4">
             <div class="col-12 mb-4 mx-auto">
               <img src="../assets/icon/eye.svg" alt="">
             </div>
@@ -13,7 +13,7 @@
             </div>
           </div>
 
-          <div class="col-6 mt-4">
+          <div class="col-12 col-md-6 mt-4">
             <div class="col-12 my-3 d-flex ms-5">
               <svg xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -68,7 +68,7 @@
       </div>
 
       <div class="d-flex justify-content-center" >
-        <p style="width: 50%">L’agence Kartel, c’est nous, un groupe de jeunes avec la soif d’expériences. Nous avons tous des compétences et parcours différents, mais un point commun : une sensibilité au monde de l’art. <br> Nous voulons que l’art son accessible et nous sommes convaincue que chacun doit avoir la chance de partager sa créativité ; c’est pour ça que nous avons créer cette association en 2021.De jeunes artistes pourront ainsi gagner en visibilité par nos différents services et notre suivie (interviews, posts réseaux, expositions...)</p>
+        <p style="width: 50%">L’agence Kartel, c’est nous, un groupe de jeunes avec la soif d’expériences. Nous avons tous des compétences et parcours différents, mais un point commun : une sensibilité au monde de l’art. <br> Fondée en 2021, l'association Kartel s'engage résolument dans la médiation et la vulgarisation culturelle. Animés par une passion commune pour l'art, nous croyons en son pouvoir unificateur et enrichissant pour la société. Notre mission est de rendre l'art accessible à tous, de démystifier ses complexités et d'encourager la créativité sous toutes ses formes. Convaincus que chaque individu mérite l'opportunité de s'exprimer artistiquement, nous mettons en place des initiatives variées telles que des expositions, des ateliers, et des événements culturels. À travers notre engagement, nous aspirons à nourrir une communauté inclusive et vibrante, où la diversité artistique est célébrée et partagée.</p>
       </div>
 
       <div class="row my-5">
@@ -83,19 +83,19 @@
         </div>
       </div>
 
-      <div class="d-flex mx-5 mb-3">
-        <img src="../assets/images/nuit_etoile.png" alt="" style="width: 350px" class="mx-3">
-        <div class="my-auto mx-3">
-          <h2 class="pill-bleu mb-5 d-flex justify-content-start police">Nuit étoilée</h2>
+      <div class="row justify-content-center mb-3">
+        <img src="../assets/images/nuit_etoile.png" alt="" style="width: 350px" class="mx-3 h-100 col-12 col-md-6">
+        <div class="my-auto mx-3 col-12 col-md-6">
+          <h2 class="pill-bleu mb-3 mb-md-5 mt-3 mt-md-0 d-flex justify-content-start police">Nuit étoilée</h2>
           <p class="text-start">La nuit étoilée représente ce que Van Gogh pouvait voir ou extrapoler de la chambre qu'il occupait lors de son séjour à l'asile de St Rémy de Provence. C'est à cette période difficile de sa vie tourmentée qu'il peint l'une des toiles les plus célèbres de l'histoire de l'art, aujourd'hui conservée au MoMA à New York.</p>
         </div>
       </div>
-      <div class="d-flex mx-5 mb-3">
-        <div class="my-auto mx-3">
-          <h2 class="pill-bleu mb-5 d-flex justify-content-start police">Van Gogh</h2>
+      <div class="row justify-content-center mb-3">
+        <div class="my-auto mx-3 col-12 col-md-6">
+          <h2 class="pill-bleu mb-3 mb-md-5 mt-3 mt-md-0 d-flex justify-content-start police">Van Gogh</h2>
           <p class="text-start">Vincent van Gogh est né en 1853 aux Pays-Bas et mort en 1890 en France. C’est un peintre et dessinateur néerlandais. Son œuvre pleine de naturalisme, inspirée par l'impressionnisme et le pointillisme, annonce le fauvisme et l'expressionnisme. Il est aujourd'hui considéré comme l'un des plus grands artistes de tous les temps.</p>
         </div>
-        <img src="../assets/images/vg.png" alt="" style="width: 330px;" class="mx-3">
+        <img src="../assets/images/vg.png" alt="" style="width: 330px;" class="mx-3 col-12 col-md-6 order-first order-md-last">
       </div>
 
       <div class="row my-5">
@@ -103,7 +103,7 @@
           <div class="line"></div>
         </div>
         <div class="col-2 my-auto p-0 mx-auto">
-          <p class="pill-bleu mb-0 police fs-3">Le Groupe</p>
+          <p class="pill-bleu mb-0 police fs-3">Les fondateurs</p>
         </div>
         <div class="col-5 my-auto">
           <div class="line"></div>
@@ -113,94 +113,30 @@
       <div class="row my-3">
         <div class="col mx-2">
           <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
+            <img src="../assets/images/rubs.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h4 class="card-title pill-bleu police">Ruben-Levy Konan</h4>
             </div>
           </div>
         </div>
         <div class="col mx-2">
           <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
+            <img src="../assets/images/emy.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h4 class="card-title pill-bleu police">Emily Archer</h4>
             </div>
           </div>
         </div>
         <div class="col mx-2">
           <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
+            <img src="../assets/images/telmo.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row my-3">
-        <div class="col mx-2">
-          <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mx-2">
-          <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mx-2">
-          <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row my-3">
-        <div class="col mx-2">
-          <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mx-2">
-          <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mx-2">
-          <div class="card">
-            <img src="../assets/images_default/image.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title pill-bleu police">Card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h4 class="card-title pill-bleu police">Telma Esmery</h4>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="d-flex justify-content-center mt-4">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YbWwoW61cnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
     </div>
 </template>
 

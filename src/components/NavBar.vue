@@ -10,9 +10,6 @@
             <li class="nav-item my-auto col">
               <a class="nav-link m-2" aria-current="page" href="/agence">L'agence</a>
             </li>
-            <li class="nav-item my-auto col">
-              <a class="nav-link m-2" href="/artistes">Les artistes</a>
-            </li>
             <li class="col d-lg-flex d-none">
               <a href="/">
                 <img class="w-100" src="../assets/logo.svg" alt="logo">
@@ -22,10 +19,7 @@
               <a class="nav-link m-2" href="/">Home</a>
             </li>
             <li class="nav-item my-auto col">
-              <a class="nav-link m-2" href="/evenements">Événements</a>
-            </li>
-            <li class="nav-item my-auto col">
-              <a class="nav-link m-2" href="/services">Nos services</a>
+              <a class="nav-link m-2" href="/podcast">Notre Podcast</a>
             </li>
           </ul>
         </div>

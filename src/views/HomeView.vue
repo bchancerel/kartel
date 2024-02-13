@@ -11,58 +11,40 @@
     <img src="../assets/images/nuit_etoile.png" class="w-25 nuit" alt="nuit">
     <div class="container">
 
-      <h2 class="police mt-5 mb-3 mb-md-5">Qui sommes nous ?</h2>
-      <div class="d-flex row mx-5 justify-content-center">
-        <div class="col-12 col-md-6 mb-4">
-          <img src="../assets/images/groupe1.png" alt="groupe" class="w-75">
-        </div>
-        <div class="col-12 col-md-6 my-auto">
-          <p>L’agence Kartel, c’est nous, un groupe de jeunes avec l’envie d’expériences. Nous avons tous des compétences et parcours différents, mais un point commun : une sensibilité au monde de l’art. Nous voulons que l’art son accessible et nous sommes convaincue que chacun doit avoir la chance de partager sa créativité ; c’est pour ça que nous avons créer cette association en 2021.De jeunes artistes pourront ainsi gagner en visibilité par nos différents services et notre suivie (interviews, posts réseaux, expositions...)</p>
-        </div>
+      <div class="d-flex jsutify-content-center mt-5 mx-5 dynamique">
+        <p>Bienvenue sur la page d'accueil de Kartel, votre passerelle vers une exploration dynamique de la culture sous toutes ses formes ! En tant qu'association dévouée à la médiatisation et à la vulgarisation culturelle, nous sommes ici pour vous guider à travers un voyage passionnant où l'art, la musique, la littérature, et bien plus encore, prennent vie. Avec une équipe dédiée de passionnés, nous sommes fiers de vous offrir une plateforme où la découverte et l'enrichissement intellectuel se rencontrent. Préparez-vous à être inspiré, éduqué et divertis, car chez Kartel, la culture est bien plus qu'une simple expérience, c'est une aventure à partager ensemble. Bienvenue dans notre univers culturel !</p>
       </div>
 
-      <h2 class="police my-5">L’association Kartel s’occupe de vous !</h2>
+      <div class="row my-5">
+        <div class="col-5 my-auto">
+          <div class="line"></div>
+        </div>
+        <div class="col-2 my-auto p-0 mx-auto">
+          <h2 class="pill-bleu mb-0 police">Nos réseaux</h2>
+        </div>
+        <div class="col-5 my-auto">
+          <div class="line"></div>
+        </div>
+      </div>
       <div class="row justify-content-center mb-3">
-        <div class="col-3 my-auto">
-          <div class="col-12">
-            <img class="w-25" src="../assets/icon/vue.png" alt="eye">
-          </div>
-          <div class="col-12 my-2">
-            <span class="icon">visibilité</span>
-          </div>
-        </div>
-        <div class="col-3 my-auto">
-          <div class="col-12">
-            <img class="w-25" src="../assets/icon/calendrier.png" alt="calendar">
-          </div>
-          <div class="col-12 my-2">
-            <span class="icon">évènement</span>
-          </div>
-        </div>
-        <div class="col-3 my-auto">
-          <div class="col-12">
-            <img class="w-25" src="../assets/icon/entretien.png" alt="media">
-          </div>
-          <div class="col-12 my-2">
-            <span class="icon">interview</span>
-          </div>
-        </div>
-        <div class="col-3 my-auto">
-          <div class="col-12">
-            <img class="w-25" src="../assets/icon/camera.png" alt="camera">
-          </div>
-          <div class="col-12 my-2">
-            <span class="icon">shooting</span>
-          </div>
-        </div>
+        <img src="../assets/images/agencekartel_qr.png" alt="" style="width: 350px" class="mx-3 h-100 col-12 col-md-6">
+        <img src="../assets/images/code_tk.jpg" alt="" style="width: 330px;" class="mx-3 col-12 col-md-6">
       </div>
 
-      <div>
-        <h2 class="police my-5">Nos derniers projets</h2>
-        <!-- a remplir -->
-        <div class="mb-5">
-          <button class="btn btn-outline-primary">Voir nos projets</button>
+      <div class="row my-5">
+        <div class="col-4 my-auto">
+          <div class="line"></div>
         </div>
+        <div class="col-4 my-auto p-0 mx-auto">
+          <h2 class="pill-bleu mb-0 police">Nos derniers projets</h2>
+        </div>
+        <div class="col-4 my-auto">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div>
+        <iframe class="mb-3" style="border-radius:12px" width="560" height="315" src="https://www.youtube.com/embed/U4QOigcsHNE?si=RTPToYdMyyoEPfO3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="mb-3" style="border-radius:12px" src="https://open.spotify.com/embed/episode/1s350RvbSj5Y5zdDMRIIyT?utm_source=generator" width="75%" height="240" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
     </div>
   </div>
@@ -72,11 +54,37 @@
 // @ is an alias to /src
 
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  mounted () {
+    var element = this.$el.querySelector('.dynamique')
+    var position = element.getBoundingClientRect().top
+    var screenPosition = window.innerHeight / 1.8
+
+    function animateOnScroll () {
+      if (position < screenPosition) {
+        element.classList.add('active')
+      }
+    }
+
+    animateOnScroll()
+
+    window.addEventListener('scroll', animateOnScroll)
+  }
 }
 </script>
 
 <style scoped>
+.dynamique {
+    opacity: 0; /* Définit l'élément comme invisible au départ */
+    transform: translateY(20px); /* Le déplace vers le bas */
+    transition: opacity 2.5s ease, transform 2.5s ease; /* Animation de transition */
+}
+
+.dynamique.active {
+    opacity: 1; /* Le rend visible */
+    transform: translateY(0); /* Le replace à sa position d'origine */
+}
+
 .title{
   text-align: center;
   width: 100%;
@@ -116,7 +124,14 @@ export default {
   margin-top: -30px;
 }
 
-.icon {
-  font-size: 18px;
+.pill-bleu {
+  color: #212ea5;
+}
+
+.line {
+  border-top: 2px solid #f6dc75 !important;
+  border-top-width: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #f6dc75 !important;
 }
 </style>
