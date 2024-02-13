@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse justify-content-center my-4" id="navbarNavDropdown">
           <ul class="navbar-nav row">
             <li class="nav-item my-auto col">
-              <a class="nav-link m-2" aria-current="page" href="/agence">L'agence</a>
+              <a class="nav-link m-2" aria-current="page" href="/kartel/agence">L'agence</a>
             </li>
             <li class="col d-lg-flex d-none">
               <a href="/">
@@ -16,10 +16,10 @@
               </a>
             </li>
             <li class="col d-lg-none d-block nav-item my-auto">
-              <a class="nav-link m-2" href="/">Home</a>
+              <a class="nav-link m-2" href="/kartel">Home</a>
             </li>
             <li class="nav-item my-auto col">
-              <a class="nav-link m-2" href="/podcast">Notre Podcast</a>
+              <a class="nav-link m-2" href="/kartel/podcast">Notre Podcast</a>
             </li>
           </ul>
         </div>

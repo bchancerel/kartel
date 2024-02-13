@@ -8,17 +8,17 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/kartel',
     name: 'home',
     component: HomeView
   },
   {
-    path: '/agence',
+    path: '/kartel/agence',
     name: 'agence',
     component: AgenceView
   },
   {
-    path: '/podcast',
+    path: '/kartel/podcast',
     name: 'podcast',
     component: PodcastView
   }
