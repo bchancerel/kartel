@@ -7,7 +7,7 @@ import PodcastView from '../views/PodcastView.vue'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: '/kartel',
   routes: [
     {
