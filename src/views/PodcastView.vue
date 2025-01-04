@@ -20,8 +20,17 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-12 col-md-6">
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1s350RvbSj5Y5zdDMRIIyT?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="col-12 col-md-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4sKENexsoGBMjzmoNO7oYE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="col-12 col-md-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1DzBCYMiULh3f21dzDLk5d?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="col-12 col-md-6">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3JNT7ucoSIkquwYGr1cdcC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
     </div>

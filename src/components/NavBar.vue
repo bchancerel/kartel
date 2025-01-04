@@ -8,18 +8,24 @@
         <div class="collapse navbar-collapse justify-content-center my-4" id="navbarNavDropdown">
           <ul class="navbar-nav row">
             <li class="nav-item my-auto col">
-              <a class="nav-link m-2" aria-current="page" href="/kartel/agence">L'agence</a>
+              <router-link class="nav-link m-2" to="/agence">Agence</router-link>
+            </li>
+            <li class="nav-item my-auto col">
+              <router-link class="nav-link m-2" to="/reseaux">Nos Réseaux</router-link>
             </li>
             <li class="col d-lg-flex d-none">
-              <a href="/kartel">
+              <a href="/">
                 <img class="w-100" src="../assets/logo.svg" alt="logo">
               </a>
             </li>
             <li class="col d-lg-none d-block nav-item my-auto">
-              <a class="nav-link m-2" href="/kartel">Home</a>
+              <a class="nav-link m-2" href="/">Home</a>
             </li>
             <li class="nav-item my-auto col">
-              <a class="nav-link m-2" href="/kartel/podcast">Notre Podcast</a>
+              <router-link class="nav-link m-2" to="/podcast">Notre Podcast</router-link>
+            </li>
+            <li class="nav-item my-auto col">
+              <router-link class="nav-link m-2" to="/blog">Nos Articles</router-link>
             </li>
           </ul>
         </div>
